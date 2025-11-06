@@ -1,0 +1,64 @@
+.learn {
+  min-height: 100vh;
+  padding-bottom: 3rem;
+}
+
+.learn-intro {
+  color: white;
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  opacity: 0.95;
+}
+
+.articles-list {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+}
+
+.article-card {
+  margin-bottom: 2rem;
+}
+
+.article-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.article-date {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-content {
+  line-height: 1.8;
+}
+
+.article-paragraph {
+  margin-bottom: 1.5rem;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.article-bold {
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.article-list {
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.article-list li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+

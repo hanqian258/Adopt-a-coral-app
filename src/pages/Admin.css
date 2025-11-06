@@ -1,0 +1,101 @@
+.admin {
+  min-height: 100vh;
+  padding-bottom: 3rem;
+}
+
+.admin-subtitle {
+  color: white;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  opacity: 0.95;
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.photo-input-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.photo-input-group .form-input {
+  flex: 1;
+}
+
+.btn-remove {
+  padding: 0.75rem 1rem;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn-remove:hover {
+  background: #c0392b;
+}
+
+.stats {
+  margin-bottom: 2rem;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.stat-label {
+  font-weight: 600;
+  color: #555;
+}
+
+.stat-value {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #667eea;
+}
+
+.status-active-badge {
+  color: #2ecc71 !important;
+}
+
+.status-cancelled-badge {
+  color: #e74c3c !important;
+}
+
+.cancellation-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cancellation-list li {
+  padding: 1rem;
+  background: #fee;
+  border-left: 4px solid #e74c3c;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+  color: #555;
+}
+
+.cancellation-list small {
+  color: #888;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 968px) {
+  .admin-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
